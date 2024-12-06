@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+html{
+    background-color: rgb(59, 0, 0);
+} 
+
+.body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuImg{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(width: 500px){
+    #menuImg{
+        max-width: 500px;
+    }
+}
